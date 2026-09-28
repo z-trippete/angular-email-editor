@@ -1,12 +1,35 @@
 {
   "name": "@z-trippete/angular-email-editor",
-  "version": "19.0.0",
-  "repository": "https://github.com/z-trippete/angular-email-editor.git",
+  "version": "20.0.0",
+  "description": "Angular wrapper component for the Unlayer drag-n-drop email editor",
+  "keywords": [
+    "angular",
+    "email",
+    "editor",
+    "unlayer",
+    "drag-and-drop",
+    "email-builder"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-trippete/angular-email-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/z-trippete/angular-email-editor/issues"
+  },
+  "homepage": "https://github.com/z-trippete/angular-email-editor#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "peerDependencies": {
-    "@angular/common": "^19.0.0",
-    "@angular/core": "^19.0.0"
-  }
+    "@angular/common": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "rxjs": "^7.4.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
 }

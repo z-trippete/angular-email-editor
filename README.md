@@ -19,6 +19,8 @@ The easiest way to use Angular Email Editor is to install it from Npm or Yarn an
 npm install @z-trippete/angular-email-editor --save
 ```
 
+The major version of this package follows the Angular major version: `20.x` requires Angular 20.
+
 ## Usage
 
 Next, you'll need to import the Email Editor module in your app's module.
@@ -27,7 +29,7 @@ Next, you'll need to import the Email Editor module in your app's module.
 
 ```ts
 
-import { EmailEditorModule } from 'angular-email-editor';
+import { EmailEditorModule } from '@z-trippete/angular-email-editor';
 ...
 
 @NgModule({
@@ -41,7 +43,7 @@ import { EmailEditorModule } from 'angular-email-editor';
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { EmailEditorComponent } from 'angular-email-editor';
+import { EmailEditorComponent } from '@z-trippete/angular-email-editor';
 
 @Component({
   selector: 'app-root',

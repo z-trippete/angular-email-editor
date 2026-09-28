@@ -1,6 +1,6 @@
 {
   "name": "@z-trippete/angular-email-editor",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Angular wrapper component for the Unlayer drag-n-drop email editor",
   "keywords": [
     "angular",
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/common": "^20.0.0",
-    "@angular/core": "^20.0.0",
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
     "rxjs": "^7.4.0"
   },
   "dependencies": {

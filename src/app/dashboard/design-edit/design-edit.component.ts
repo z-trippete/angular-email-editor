@@ -1,10 +1,11 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ChangeDetectionStrategy } from '@angular/core';
 import { EmailEditorComponent } from 'projects/email-editor/src/public_api';
 
 @Component({
     selector: 'app-design-edit',
     templateUrl: './design-edit.component.html',
     styleUrls: ['./design-edit.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class DesignEditComponent implements OnInit {

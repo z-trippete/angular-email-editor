@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ChangeDetectionStrategy } from '@angular/core';
 
 import sample from './sample.json';
 import { EmailEditorComponent } from 'projects/email-editor/src/public_api';
@@ -7,6 +7,7 @@ import { EmailEditorComponent } from 'projects/email-editor/src/public_api';
     selector: 'app-example',
     templateUrl: './example.component.html',
     styleUrls: ['./example.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class ExampleComponent implements OnInit {

@@ -5,12 +5,13 @@ import {
   Input,
   Output,
   EventEmitter,
+  ChangeDetectionStrategy
 } from '@angular/core';
 import { loadScript } from './loadScript';
 import pkg from './source.json';
 import { filter, interval, take } from 'rxjs';
 
-declare module unlayer {
+declare namespace unlayer {
   function init(object);
   function createEditor(object);
   function loadDesign(object);
@@ -32,6 +33,7 @@ let lastEditorId = 0;
     selector: 'email-editor',
     templateUrl: './email-editor.component.html',
     styleUrls: ['./email-editor.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class EmailEditorComponent implements OnInit, AfterViewInit {

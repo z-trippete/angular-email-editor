@@ -19,7 +19,8 @@
     ]
   },
   "angularCompilerOptions": {
-    "compilationMode": "partial"
+    "compilationMode": "partial",
+    "strictTemplates": false
   },
   "exclude": [
     "src/test.ts",

@@ -19,7 +19,7 @@ The easiest way to use Angular Email Editor is to install it from Npm or Yarn an
 npm install @z-trippete/angular-email-editor --save
 ```
 
-The major version of this package follows the Angular major version: `21.x` requires Angular 21.
+The major version of this package follows the Angular major version: `22.x` requires Angular 22.
 
 ## Usage
 

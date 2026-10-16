@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -14,10 +13,12 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "email-editor": ["dist/email-editor"],
-      "email-editor/*": ["dist/email-editor/*"]
+      "email-editor": ["./dist/email-editor"],
+      "email-editor/*": ["./dist/email-editor/*"],
+      "projects/*": ["./projects/*"]
     },
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "strict": false
   }
 }
